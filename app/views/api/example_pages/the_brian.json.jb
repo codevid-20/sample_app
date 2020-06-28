@@ -1,0 +1,4 @@
+{
+  message: "bob there there", 
+  time: @current_time
+}

@@ -1,5 +1,7 @@
 class Api::ExamplePagesController < ApplicationController
   def hello
-    render json: {message: "hello there"}
+    @current_time = Time.now.strftime("%b %d, %Y")
+            # view
+    render 'the_brian.json.jb'
   end
 end
