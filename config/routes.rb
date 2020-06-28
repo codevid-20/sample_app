@@ -6,4 +6,9 @@ Rails.application.routes.draw do
   # namespace :api do
   #   get "/photos" => "photos#index"
   # end
+
+  namespace :api do 
+  # verb url       controller    method/action
+    get "/hi" => "example_pages#hello"
+  end
 end
